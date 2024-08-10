@@ -1,0 +1,19 @@
+
+#database
+POSTGRES_SQL_HOST: localhost
+POSTGRES_SQL_PORT: 5432
+POSTGRES_SQL_DB: email
+POSTGRES_SQL_USERNAME: hels
+POSTGRES_SQL_PASSWORD: hels
+
+
+#server
+ACTIVE_PROFILE: dev
+SERVER_PORT: 8080
+
+#Email config
+EMAIL_HOST: smtp.gmail.com
+EMAIL_PORT: 587
+EMAIL_ID: m7hels@gmail.com
+EMAIL_PASSWORD: estk elyc fudf oynx
+VERIFY_EMAIL_HOST: http://localhost:${SERVER_PORT}
